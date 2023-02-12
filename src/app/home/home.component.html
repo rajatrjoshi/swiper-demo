@@ -1,0 +1,6 @@
+<div>Home Component</div>
+<swiper-container fmSwiper [config]="config" init="false" class="w-full home-container">
+    <swiper-slide class="swiper-container" *ngFor="let slider of sliders">
+        {{slider}}
+    </swiper-slide>
+  </swiper-container>
